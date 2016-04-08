@@ -8,23 +8,23 @@ Take 30 minutes and answer the following questions together with your group. Tak
 
       class FunnyBots  
 
-      attr_accessor :name, :quotes  
+        attr_accessor :name, :quotes  
 
-      @@bots = []
+        @@bots = []
 
-      def initialize(name, quotes)
-        @name = name
-        @quotes = quotes
-        @@bots << self
-      end
+        def initialize(name, quotes)
+          @name = name
+          @quotes = quotes
+          @@bots << self
+        end
 
-      def random_quote
+       def random_quote
         self.quotes.sample
-      end
+        end
 
-      def self.bots
-        @@bots
-      end
+        def self.bots
+          @@bots
+        end
 
     end
 
@@ -62,7 +62,7 @@ Take 30 minutes and answer the following questions together with your group. Tak
 
   For what reasons will the following method calls fail :```mongoose.tire_size = 5```, ```mongoose.gears```, ```Bicycle.bikes```, ```Bicycle.style```? Restructure the class to fix the issues.
 
-3 . You have created a command line application that requires the user of you app to use the `HTTParty`, `NokoGiri`, and `RMMagix ~> 2.15.1` **gems**. How would you **programmatically** handle these dependencies in your application? How would you make sure the user had the gems on their machine, and if they did not, how would you make sure you could install the gems for them?
+3 . You have created a command line application that requires the user of you app to use the `HTTParty`, `NokoGiri`, and `RMMagix ~> 2.15.1` **gems**. How would you **programmatically** handle these dependencies in your application? How would you make sure the user has the gems on their machine, and if they did not, how would you make sure you could install the gems for them?
 
 4 . We have a **method** called are #**are_we_there_yet**?. This method prints out "are we there yet?" four times every time the method is called.
 Write a Rspec test that validates that this method does what it is intended to do.
