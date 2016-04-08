@@ -34,7 +34,7 @@ Take 30 minutes and answer the following questions together with your group. Tak
   B. What is **self** in this line ```self.quotes.sample```?  
   C. What kind of **method** is this & what is **self**? ```  def self.bots  
       @@bots end ```  
-  D. Will this work ```Archer.bots``` if not, why? 
+  D. Will this work ```Archer.bots```? If not, why? 
   
 
 2 .
