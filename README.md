@@ -35,7 +35,7 @@ Take 30 minutes and answer the following questions together with your group. Tak
   C. What kind of **method** is this & what is **self**? ```  def self.bots
       @@bots 
   D. Will this work ```Archer.bots``` if not, why? 
-    end```
+  
 
 2 .
 
