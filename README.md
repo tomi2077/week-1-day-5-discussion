@@ -32,7 +32,7 @@ Take 30 minutes and answer the following questions together with your group. Tak
 
   A. What is **self** in this line ```@@bots << self``` ?  
   B. What is **self** in this line ```self.quotes.sample```?  
-  C. What kind of **method** is this & what is **self**? ```  def self.bots
+  C. What kind of **method** is this & what is **self**? ```  def self.bots  
       @@bots 
   D. Will this work ```Archer.bots``` if not, why? 
   
