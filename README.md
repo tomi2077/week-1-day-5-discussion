@@ -19,7 +19,7 @@ Take 30 minutes and answer the following questions together with your group. Tak
         end
 
        def random_quote
-        self.quotes.sample
+          self.quotes.sample
         end
 
         def self.bots
