@@ -1,4 +1,4 @@
-# Week 1, Day 5 Discussion Questions
+# `self` Discussion Questions
 
 ## Instructions
 
