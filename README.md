@@ -28,13 +28,13 @@ Take 30 minutes and answer the following questions together with your group. Tak
 
     end
 
-      Archer = FunnyBots.new("Archer", ["Danger Zone!", "Read a book", "The cumulative hangover would literally kill me"] )
+      archer = FunnyBots.new("Archer", ["Danger Zone!", "Read a book", "The cumulative hangover would literally kill me"] )
 
   A. What is **self** in this line ```@@bots << self``` ?  
   B. What is **self** in this line ```self.quotes.sample```?  
   C. What kind of **method** is this & what is **self**? ```  def self.bots  
       @@bots end ```  
-  D. Will this work ```Archer.bots```? If not, why? 
+  D. Will this work ```archer.bots```? If not, why? 
   
 
 2 .
